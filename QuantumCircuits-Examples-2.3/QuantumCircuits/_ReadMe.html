@@ -1,0 +1,679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" dir="ltr" lang="de">
+<head>
+  <title>jQuantum Example Files of Quantum Circuits</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" media="screen" href="html-data/shared.css">
+</head>
+<body>
+<h1>Quantum Circuit Example Files</h1>
+
+This directory contains the following quantum circuit (".qc") files. They can be loaded via web start or from within the jQuantum program from your hard disk. Both applications run if the <a href="http://java.sun.com/getjava/download.html">Java Runtime Environment (JRE)</a> by <a href="http://java.sun.com/">SUN</a> is installed.
+
+<h2>Survey</h2>
+<ol>
+ <li><a href="#classical">Classical Circuits</a>
+ <ul>
+  <li>
+   <a href="./classical/AND.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#AND">AND.qc</a>
+  </li>
+  <li>
+   <a href="./classical/OR.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#OR">OR.qc</a>
+  </li>
+  <li>
+   <a href="./classical/OR-unmodified.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#OR-unmodified">OR-unmodified.qc</a>
+  </li>
+  <li>
+   <a href="./classical/Adder.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#ADDER">Adder.qc</a>
+ </ul>
+ </li>
+ <li>
+  <a href="#non-classical">Non-classical Circuits</a>
+ <ul>
+  <li>
+   <a href="./non-classical/Fourier-cNOT-12.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#Fourier-cNOT-12">Fourier-cNOT-12.qc</a>
+  </li>
+  <li>
+   <a href="./non-classical/Fourier-Toffoli-123.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#Fourier-Toffoli-123">Fourier-Toffoli-123.qc</a>
+  </li>
+  <li>
+   <a href="./non-classical/entireSuperpositionPhaseShifts.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#entireSuperpositionPhaseShifts">entireSuperpositionPhaseShifts.qc</a>
+  </li>
+  <li>
+   <a href="./non-classical/Fourier-cNOT-12.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#Fourier-cNOT-12">Fourier-cNOT-12.qc</a>
+  </li>
+  <li>
+   <a href="./non-classical/H-Fourier.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#H-Fourier">H-Fourier.qc</a>
+  </li>
+  <li>
+   <a href="#Deutsch-Josza">Deutsch and Deutsch-Josza algorithm</a>
+   (Load:
+   <a href="./non-classical/Deutsch-00.qc">
+    <!-- img src="./html-data/start-button.png" align="top" height="19" border="0" alt="start"/ -->
+    D00</a>,
+   <a href="./non-classical/Deutsch-01.qc">
+    <!-- img src="./html-data/start-button.png" align="top" height="19" border="0" alt="start"/ -->
+    D01</a>,
+   <a href="./non-classical/Deutsch-10.qc">
+    <!-- img src="./html-data/start-button.png" align="top" height="19" border="0" alt="start"/ -->
+    D10</a>,
+   <a href="./non-classical/Deutsch-11.qc">
+    <!-- img src="./html-data/start-button.png" align="top" height="19" border="0" alt="start"/ -->
+    D11</a>,
+   <a href="./non-classical/Deutsch-Josza-0.qc">
+    <!-- img src="./html-data/start-button.png" align="top" height="19" border="0" alt="start"/ -->
+    DJ0</a>,
+   <a href="./non-classical/Deutsch-Josza-1.qc">
+    <!-- img src="./html-data/start-button.png" align="top" height="19" border="0" alt="start"/ -->
+    DJ1</a>,
+   <a href="./non-classical/Deutsch-Josza-balanced-even.qc">
+    <!-- img src="./html-data/start-button.png" align="top" height="19" border="0" alt="start"/ -->
+    DJ-b-e</a>,
+   <a href="./non-classical/Deutsch-Josza-balanced-odd.qc">
+    <!-- img src="./html-data/start-button.png" align="top" height="19" border="0" alt="start"/ -->
+    DJ-b-o</a>)
+  </li>
+  <li>
+   <a href="./non-classical/Shor-437.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#Shor-437">Shor-437.qc</a>
+  </li>
+  <li>
+   <a href="./non-classical/Grover-151.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#Grover-151">Grover-151.qc</a>
+  </li>
+ </ul>
+ </li>
+ <li>
+  <a href="#entanglement">Entanglement</a>
+ <ul>
+  <li>
+   <a href="#Bell-states">Bell states</a>
+   (Load:
+   <a href="./entanglement/Bell-state-00.qc">B00</a>,
+   <a href="./entanglement/Bell-state-01.qc">B01</a>,
+   <a href="./entanglement/Bell-state-10.qc">B10</a>,
+   <a href="./entanglement/Bell-state-11.qc">B11</a>)
+  </li>
+  <li>
+   <a href="#GHZ-state">GHZ state</a>
+   (Load: 
+   <a href="./entanglement/GHZ.qc">GHZ</a>, 
+   <a href="./entanglement/GHZ-A1.qc">GHZ-A1</a>, 
+   <a href="./entanglement/GHZ-A2.qc">GHZ-A2</a>, 
+   <a href="./entanglement/GHZ-A3.qc">GHZ-A3</a>,
+   <a href="./entanglement/GHZ-B.qc">GHZ-B</a>)
+  </li>
+  <li>
+   <a href="./entanglement/W-state.qc">
+    <!-- img src="./html-data/load-button.png" align="top" height="19" border="0" alt="Load"/ -->
+    <!-- input type="button" value="Load"/ -->
+   </a>
+   <a href="#W-state">W state</a>
+  </li>
+ </ul>
+ </li>
+</ol>
+
+<p><a name="classical"/></p>
+<h2>1. Classical Circuits</h2>
+<ul>
+<li>
+<a name="AND"/>
+<a href="./classical/AND.qc"><b>AND.qc</b></a> -
+Quantum version of a classical AND gate. Here the third qubit <i>x</i><sub>3</sub> always has the value <i>x</i><sub>1</sub> <img src="./html-data/and.png" border="0" alt="and"/> <i>x</i><sub>2</sub>, where <i>x</i><sub>1</sub> and <i>x</i><sub>2</sub> are the respective values of the first and the second qubit:
+<p>
+<table border="1" align="center">
+  <tr>
+    <th><i>x</i><sub>1</sub></th>
+    <th><i>x</i><sub>2</sub></th>
+    <th><i>x</i><sub>3</sub> &larr; <i>x</i><sub>1</sub> <img src="./html-data/and.png" border="0" alt="and"/> <i>x</i><sub>2</sub></th>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 0 </td><td style="text-align:center"> 0 </td><td style="text-align:center"> 0 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 0 </td><td style="text-align:center"> 1 </td><td style="text-align:center"> 0 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 1 </td><td style="text-align:center"> 0 </td><td style="text-align:center"> 0 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 1 </td><td style="text-align:center"> 1 </td><td style="text-align:center"> 1 </td>
+  </tr>
+</table>
+</p>
+</li>
+<li>
+<a name="OR"/>
+<a href="./classical/OR.qc"><b>OR.qc</b></a> -
+Quantum version of a classical OR gate. Here the third qubit <i>x</i><sub>3</sub> always has the value <i>x</i><sub>1</sub> <img src="./html-data/or.png" border="0" alt="or"/> <i>x</i><sub>2</sub>, where <i>x</i><sub>1</sub> and <i>x</i><sub>2</sub> are the respective values of the first and the second qubit:
+<p>
+<table border="1" align="center">
+  <tr>
+    <th><i>x</i><sub>1</sub></th>
+    <th><i>x</i><sub>2</sub></th>
+    <th><i>x</i><sub>3</sub> &larr; <i>x</i><sub>1</sub> <img src="./html-data/or.png" border="0" alt="or"/> <i>x</i><sub>2</sub></th>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 0 </td><td style="text-align:center"> 0 </td><td style="text-align:center"> 0 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 0 </td><td style="text-align:center"> 1 </td><td style="text-align:center"> 1 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 1 </td><td style="text-align:center"> 0 </td><td style="text-align:center"> 1 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 1 </td><td style="text-align:center"> 1 </td><td style="text-align:center"> 1 </td>
+  </tr>
+</table>
+</p>
+</li>
+<li>
+<a name="OR-unmodified"/>
+<a href="./classical/OR-unmodified.qc"><b>OR-unmodified.qc</b></a> -
+Quantum circuit resulting in the same state for the third qubit |<i>x</i><sub>3</sub>&gt; than the OR.qc circuit above, but now the input qubits |<i>x</i><sub>1</sub>&gt; and |<i>x</i><sub>2</sub>&gt; remain unchanged afterwards.
+</li>
+<li>
+<a name="ADDER"/>
+<a href="./classical/Adder.qc"><b>Adder.qc</b></a> -
+Quantum version of a classical ADDER gate. Here the three qubits <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub> and <i>x</i><sub>3</sub> are related by the following table:
+<p>
+<table border="1" align="center">
+  <tr>
+    <th><i>x</i><sub>1</sub></th>
+    <th><i>x</i><sub>2</sub></th>
+    <th><i>x</i><sub>3</sub> &larr; <code>carry</code> = <i>x</i><sub>1</sub> <img src="./html-data/and.png" border="0" alt="and"/> <i>x</i><sub>2</sub></th>
+    <th><i>x</i><sub>2</sub> &larr; <i>x</i><sub>1</sub> <img src="./html-data/or.png" border="0" alt="or"/> <i>x</i><sub>2</sub></th>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 0 </td><td style="text-align:center"> 0 </td>
+    <td style="text-align:center"> 0 </td>
+    <td style="text-align:center"> 0 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 0 </td><td style="text-align:center"> 1 </td>
+    <td style="text-align:center"> 0 </td>
+    <td style="text-align:center"> 1 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 1 </td><td style="text-align:center"> 0 </td>
+    <td style="text-align:center"> 0 </td>
+    <td style="text-align:center"> 1 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 1 </td><td style="text-align:center"> 1 </td>
+    <td style="text-align:center"> 1 </td>
+    <td style="text-align:center"> 1 </td>
+  </tr>
+</table>
+</p>
+</li>
+</ul>
+
+<a name="non-classical"/>
+<h2>2. Nonclassical Circuits</h2>
+<ul>
+<li>
+<a name="Fourier-cNOT-12"/>
+<a href="./non-classical/Fourier-cNOT-12.qc"><b>Fourier-cNOT-12.qc</b></a> -
+An interesting simple quantum circuit consisting only of a quantum Fourier transform and a cNOT gate, starting with an initial state &ne; |0&gt;.
+</li>
+<li>
+<a name="Fourier-Toffoli-123"/>
+<a href="./non-classical/Fourier-Toffoli-123.qc"><b>Fourier-Toffoli-123.qc</b></a> -
+Another interesting simple quantum circuit consisting only of a quantum Fourier transform and a Toffoli gate, starting with an initial state &ne; |0&gt;.
+</li>
+<li>
+<a name="entireSuperpositionPhaseShifts"/>
+<a href="./non-classical/entireSuperpositionPhaseShifts.qc"><b>entireSuperpositionPhaseShifts.qc</b></a> -
+A quantum circuit consisting of a Hadamard, two sqrt-X gates a Pauli-Y gate and a classical cNOT, starting with an initial state &ne;  |0&gt; and resulting in an entirely superposed quantum register where the qubits are phased shifted with respect to each other.
+</li>
+<li>
+<a name="H-Fourier"/>
+<a href="./non-classical/H-Fourier.qc"><b>H-Fourier.qc</b></a> -
+A simple quantum circuit consisting of a Hadamard and quantum Fourier transform, starting with an initial state &ne; |0&gt;.
+</li>
+<li>
+<a href="./non-classical/Fourier-cNOT-12.qc"><b>Fourier-cNOT-12.qc</b></a> -
+A simple quantum circuit consisting of a Hadamard, a cNOT and quantum Fourier transform, starting with an initial state &ne; |0&gt;.
+</li>
+
+<li>
+<a name="Deutsch-Josza"/>
+<b>Deutsch and Deutsch-Josza algorithm</b> -
+The Deutsch algorithm solves the problem: 
+<i>Given a black-box function</i> 
+<i>f</i>: {0, 1} &#x2192; {0, 1} 
+<i>that maps one bit to one bit, determine whether the function is constant (i.e., </i>
+<i>f</i>(0) = <i>f</i>(1)
+<i>) or balanced (i.e., </i>
+<i>f</i>(0) &ne; <i>f</i>(1)
+<i>).</i>
+<p>
+Classically we have to perform two computations of <i>f</i> to decide this problem.
+However, the Deutsch algorithm uses amplitude interferences of the superposed quantum states such that
+a single qubit measurement suffices to solve it. If the <i>x</i> qubit is 0, then the function is constant,
+otherwise it is balanced.
+</p>
+<p>
+The files 
+<a href="./non-classical/Deutsch-00.qc"><code>Deutsch-00.qc</code></a>, 
+<a href="./non-classical/Deutsch-01.qc"><code>Deutsch-01.qc</code></a>, 
+<a href="./non-classical/Deutsch-10.qc"><code>Deutsch-10.qc</code></a>, 
+<a href="./non-classical/Deutsch-11.qc"><code>Deutsch-11.qc</code></a>
+represent the four possible cases of <i>f</i> which can occur.
+</p>
+<p>
+The Deutsch-Josza algorithm solves the similar problem for a function 
+<i>f</i>: {0, 1}<sup><i>n</i></sup> &#x2192; {0, 1}
+which maps <i>n</i> bits to one bit <i>with the promise that the function is constant (i.e.,</i>
+<i>f</i>(<i>x</i>) = <i>f</i>(<i>y</i>)
+<i>) or balanced (i.e., for each x there are exactly </i>
+2<sup><i>n</i>-1</sup> <i>different y such that</i>
+<i>f</i>(<i>x</i>) &ne; <i>f</i>(<i>y</i>)
+<i>).</i>
+</p>
+<p>
+The files 
+<a href="./non-classical/Deutsch-Josza-0.qc"><code>Deutsch-Josza-0.qc</code></a> 
+and 
+<a href="./non-classical/Deutsch-Josza-1.qc"><code>Deutsch-Josza-1.qc</code></a>
+correspond to the constant
+functions <i>f</i>(<i>x</i>) = 0 and <i>f</i>(<i>x</i>) = 1, respectively,
+whereas the other two circuits 
+<a href="./non-classical/Deutsch-Josza-balanced-even.qc"><code>Deutsch-Josza-balanced-even.qc</code></a>
+and 
+<a href="./non-classical/Deutsch-Josza-balanced-odd.qc"><code>Deutsch-Josza-balanced-odd.qc</code></a>
+represent balanced functions where each even value gives 0 in one case, 
+and each odd value gives 0 in the other case.
+</p>
+</li>
+
+<li>
+<a name="Shor-437"/>
+<a href="./non-classical/Shor-437.qc"><b>Shor-437.qc</b></a> -
+The core of Shor's period finding quantum algorithm to find the prime factors of a given number. In the example, the number whose prime factors are searched is <i>n</i>=437, thus the implemented function is
+<p style="text-align:center">
+  <i>f</i>(<i>x</i>) = 4<sup><i>x</i></sup> mod 437.
+</p>
+<p>
+By the first Fourier gate, the entire <i>x</i>-register is set into a superposition, such that by the subsequent function evaluation gate the <i>y</i>-register attains all possible values <i>f</i>(<i>x</i>). A measurement of the <i>y</i>-register then yields all in <i>x</i>-values entangled with the measured <i>y</i> value, satisfying <i>f</i>(<i>x</i>) = <i>y</i>. After an inverse quantum Fourier transform of the <i>x</i>-register giving a superposition with sharp probability amplitude maxima at 
+<p style="text-align:center">
+   <i>k</i> &asymp; <i>sq</i>/<i>p</i>, &nbsp; &nbsp; &nbsp;<i>s</i> = 0, 1, 2, ..., <i>p</i>
+</p>
+the multiples of the searched for period <i>p</i>; <i>q</i> denotes the total number of possible register states of the <i>x</i>-register, i.e., <i>q</i> = 2<sup><i>n</i></sup> with <i>n</i> the size of the register. (The probability maxima are best viewed by enabling the "length coloring" option in the configuration menu.) A second measurement then yields one of these <i>k</i>-values with high probability. Knowing the register size <i>q</i>, we have thus in fact measured the ratio <i>s</i>/<i>p</i> (with high probabilty, at least). The classical method of continued fraction then yields a fraction whose denominator is a divisor of the searched for period <i>p</i>. Hence several repetitions of this procedure then enable to find the period <i>p</i> of <i>f</i>, which in turn gives the essential hint to determine the prime factors of <i>n</i> = 437 = 19 &middot; 23.
+</p>
+<p>
+For instance, a first measurement could give <i>y</i> = 301, which corresponds to the values <i>x</i> = 83, 182, 281, 380, 479, 578, 677, 776, 875, 974, ..., since the (searched for) period, or <i>order</i>, of 4 with respect to 301 is <i>p</i> = ord<sub>301</sub>(4) = 99, cf. <a href="http://math-it.org/Mathematik/Zahlentheorie/OrdnungWert.html">http://math-it.org/Mathematik/Zahlentheorie/OrdnungWert.html</a>. Since the register contains 12 qubits, we have <i>q</i> = 2<sup>12</sup> = 4096 possible register states, and hence there are  41 &asymp; <i>q</i>/<i>p</i> <i>x</i>-values stored in the <i>x</i>-register. Thus the inverse QFT yields a register with high probability amplitudes for multiples <i>k</i> = 41<i>s</i> of 41. This yields a measured value 41<i>s</i>, and the continued fraction algorithm yields 41<i>s</i>/4096 &asymp; <i>s</i>/99, whose denominator is the searched for period or one of its divisors (in case <i>s</i> happens to divide 99).
+</p>
+</li>
+
+<li>
+<a name="Grover-151"/>
+<a href="./non-classical/Grover-151.qc"><b>Grover-151.qc</b></a> -
+The Grover search algorithm applied to a quantum register of 8 qubits and using an oracle with the "needle" |<i>x</i>&gt; = |151&gt;. An oracle is a black box which can be asked whether a specified value equals the needle value or not, but which cannot give any more information about the needle. The Grover algorithm consists of applying a Fourier transform on the initial state |0&gt; and <i>r</i> Grover operators, or Grover iteration steps, with
+<p style="text-align:center">
+  <table align="center" border="0">
+    <tr>
+      <td><i>r</i> &nbsp; &asymp &nbsp; </td>
+      <td>
+        <table border="0">
+         <tr>
+           <td align="center"><i>&pi;</i></td>
+         </tr>
+         <tr>
+           <td><hr/></td>
+         </tr>
+         <tr>
+           <td>4 arcsin(2<sup>-<i>n</i>/2</sup>)</td>
+         </tr>
+        </table>
+      </td>
+      <td> &nbsp; &asymp; &nbsp; </td>
+      <td>
+        <table border="0">
+         <tr>
+           <td align="center">2<sup><i>n</i>/2</sup> <i>&pi;</i></td>
+         </tr>
+         <tr>
+           <td><hr/></td>
+         </tr>
+         <tr>
+           <td style="text-align:center">4</td>
+         </tr>
+        </table>
+      </td>
+      <td> &nbsp; = &nbsp; 2<sup>(<i>n</i> - 4)/2</sup> <i>&pi;</i></td>
+    </tr>
+  </table>
+</p>
+where <i>n</i> &ge; 2 is the size of the register, i.e., the number of its qubits.
+Each Grover iteration amplifies the searched value and weakens all other values of the register. It consists of the following steps:
+<ol>
+<li>
+Apply an oracle query which assigns +1 to each
+value which is different from the searched for value (the "needle"), and
+-1 to the value which is searched for.
+</li>
+<li>
+Apply an <i>n</i>-fold Hadamard on the entire register
+</li>
+<li>
+Apply the conditional phase shift of -1, -<i>I</i><sub>0</sub>, defined by
+-<i>I</i><sub>0</sub>(|<i>0</i>&gt;) = |0&gt; and
+<p style="text-align:center">
+   -<i>I</i><sub>0</sub>(|<i>x</i>&gt;) = -|x&gt;
+   &nbsp; &nbsp; if <i>x</i> &ne; 0.
+</p>
+</li>
+<li>
+Apply an <i>n</i>-fold Hadamard on the entire register
+</li>
+</ol>
+The iteration step is described in
+M.A. Nielsen &amp; I.L. Chuang: 
+<i>Quantum Computation and Quantum Information.</i> 
+Cambridge University Press, Cambridge, 2000, &sect;6.1.2.
+<p>
+In practice, an oracle could be a cryptologic algorithm in a known-plaintext
+attack which applies a secret key to a given ciphertext and yields -1
+if the deciphered text equals the known plaintex, and +1 otherwise.
+</p>
+</li>
+
+</ul>
+
+<a name="entanglement"/>
+<h2>3. Entanglement</h2>
+<ul>
+<li>
+<a name="Bell-states"/>
+<a href="./entanglement/Bell-state-00.qc"><b>Bell-state-00.qc</b></a>,
+<a href="./entanglement/Bell-state-01.qc"><b>Bell-state-01.qc</b></a>,
+<a href="./entanglement/Bell-state-10.qc"><b>Bell-state-10.qc</b></a>,
+<a href="./entanglement/Bell-state-11.qc"><b>Bell-state-11.qc</b></a> -
+These quantum circuits construct the simplest entangled states, the <i>Bell states</i> or <i>EPR states</i>, 
+consisting of two qubits in a superposition of two states which are not a product state. From the 8 possible 
+states which two qubits can attain only the following four states are entangled:
+<p style="text-align:center">
+  <img class="tex" alt="|\Phi^+\rangle = \frac{|00\rangle + |11\rangle}{\sqrt2}" src="html-data/Bell-state-00.png">,
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img class="tex" alt="|\Psi^+\rangle = \frac{|01\rangle + |10\rangle}{\sqrt2}" src="html-data/Bell-state-01.png">,
+</p>
+<p style="text-align:center">
+  <img class="tex" alt="|\Phi^+\rangle = \frac{|00\rangle - |11\rangle}{\sqrt2}" src="html-data/Bell-state-10.png">,
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img class="tex" alt="|\Psi^+\rangle = \frac{|01\rangle - |10\rangle}{\sqrt2}" src="html-data/Bell-state-11.png">,
+</p>
+<p>
+The relevance of entangled states stems from the case that the entangled qubits are far apart from each other.
+A measurement of one of them then has an <i>instant</i> impact on the entangled qubit. In this way, entanglement can be used to perform teleportation or quantum communication.
+</p>
+</li>
+
+<li>
+<a name="GHZ-state"/>
+<a href="./entanglement/GHZ.qc"><b>GHZ.qc</b></a>, 
+<a href="./entanglement/GHZ-A1.qc"><b>GHZ-A1.qc</b></a>, 
+<a href="./entanglement/GHZ-A2.qc"><b>GHZ-A2.qc</b></a>, 
+<a href="./entanglement/GHZ-A3.qc"><b>GHZ-A3.qc</b></a>,
+<a href="./entanglement/GHZ-B.qc"><b>GHZ-B.qc</b></a> -
+<p>
+The <i>GHZ experiment</i>, after <b>G</b>reenberger, <b>H</b>orne and <b>Z</b>eilinger, is a gedanken experiment in quantum mechanics which gives opposite results depending on whether quantum mechanics or Einstein's local realism with hidden variables holds. First published in 1989, it was performed in 1999 and falsified the predictions of hidden variable theories.
+</p>
+<p>
+Whereas the Bell inequalities, which in essence decide the same question, require a statistical evaluation of large measurement series, the GHZ experiment only needs four measurements.
+Its core idea is to take <i>three</i> particles, each of which is a two-state quantum system attaining the states <img class="tex" alt="|0\rangle" src="html-data/qubit-0.png"> and <img class="tex" alt="|1\rangle" src="html-data/qubit-1.png">, and entangle them into the <i>GHZ state</i></p>
+<p style="text-align:center">
+<img class="tex" alt="|\psi\rangle = \frac{|000\rangle + |111\rangle}{\sqrt2}" src="html-data/Bell-state.png">
+</p>
+<p>
+Here <img class="tex" alt="|0\rangle" src="html-data/qubit-0.png"> and <img class="tex" alt="|1\rangle" src="html-data/qubit-1.png"> may represent the states spin-up and spin-down, for instance, with the eigenvalue +1 for <img class="tex" alt="|0\rangle" src="html-data/qubit-0.png"> and -1 for <img class="tex" alt="|1\rangle" src="html-data/qubit-1.png">.
+As a quantum circuit, the GHZ state can be obtained from the initial state 
+<img class="tex" alt="|0\rangle" src="html-data/qubit-0.png"><img class="tex" alt="|0\rangle" src="html-data/qubit-0.png"><img class="tex" alt="|0\rangle" src="html-data/qubit-0.png">
+by a Hadamard and two c-NOTs, cf. <code>GHZ.qc</code>:
+<img class="tex" alt="|psi\rangle-as-circuit" src="html-data/GHZ-circuit.png">.
+With the first two Pauli matrices <span class="texhtml"><i>X</i>,<i>Y</i></span> we then construct the four measurement operators
+</p>
+<p>
+<table border="0" align="center">
+  <tr>
+    <td><i>A</i><sub>1</sub></td>
+    <td> = </td>
+    <td>
+      <i>X</i><sub>1</sub><i>Y</i><sub>2</sub><i>Y</i><sub>3</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><i>A</i><sub>2</sub></td>
+    <td> = </td>
+    <td>
+      <i>Y</i><sub>1</sub><i>X</i><sub>2</sub><i>Y</i><sub>3</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><i>A</i><sub>3</sub></td>
+    <td> = </td>
+    <td>
+      <i>Y</i><sub>1</sub><i>Y</i><sub>2</sub><i>X</i><sub>3</sub>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:right"><i>B</i></td>
+    <td> = </td>
+    <td>
+      <i>X</i><sub>1</sub><i>X</i><sub>2</sub><i>X</i><sub>3</sub>
+    </td>
+  </tr>
+</table>
+</p>
+<p>
+Realized as a quantum register, a measurement in the Pauli basis <i>X</i> may be regarded as a transformation of the quantum state in the standard computational basis by <i>H</i>, i.e.,
+<p style="text-align:center">
+  <img class="tex" alt="|0_x\rangle" src="html-data/trafo-0_x.png">,
+  &nbsp; &nbsp;
+  <img class="tex" alt="|1_x\rangle" src="html-data/trafo-1_x.png">,
+</p>
+<p>or equivalently</p>
+<p style="text-align:center">
+  <img class="tex" alt="|0\rangle-in-x" src="html-data/trafo-0-x.png">,
+  &nbsp; &nbsp;
+  <img class="tex" alt="|1\rangle-in-x" src="html-data/trafo-1-x.png">,
+</p>
+<p>
+and a subsequent measurement of the respective qubit;
+analogously, a measurement in the Pauli basis <i>Y</i> a transformation by <i>S</i><sup>&dagger;</sup><i>H</i>
+</p>
+<p style="text-align:center">
+  <img class="tex" alt="|0_y\rangle" src="html-data/trafo-0_y.png">,
+  &nbsp; &nbsp;
+  <img class="tex" alt="|1_y\rangle" src="html-data/trafo-1_y.png">,
+</p>
+or equivalently
+<p style="text-align:center">
+  &nbsp;
+  <img class="tex" alt="|0\rangle-in-y" src="html-data/trafo-0-y.png">,
+  &nbsp; &nbsp; &nbsp;
+  <img class="tex" alt="|1\rangle-in-y" src="html-data/trafo-1-y.png">,
+</p>
+and a subsequent measurement. In both cases, the measurement result is <i>&lambda;</i> = +1 if and only if the qubit state is 
+<img class="tex" alt="|0_x\rangle" src="html-data/qubit-0_x.png"> or 
+<img class="tex" alt="|0_y\rangle" src="html-data/qubit-0_y.png">, respectively, and
+<i>&lambda;</i> = -1 if and only if the qubit state is 
+<img class="tex" alt="|1_x\rangle" src="html-data/qubit-1_x.png"> or 
+<img class="tex" alt="|1_y\rangle" src="html-data/qubit-1_y.png">, respectively.
+As can be seen with the quantum circuits <code>GHZ-A1.qc</code>, <code>GHZ-A2.qc</code>, <code>GHZ-A3.qc</code>, and <code>GHZ-B.qc</code> (or as can be directly verified by calculation), the qubits in the <i>A<sub>i</sub></i>-bases contain an <i>odd</i> number of 1-qubits,
+</p>
+<p style="text-align:center">
+  <img class="tex" alt="|psi\rangle-in-xyy" src="html-data/psi-xyy.png">,
+</p>
+<p style="text-align:center">
+  <img class="tex" alt="|psi\rangle-in-yxy" src="html-data/psi-yxy.png">,
+</p>
+<p style="text-align:center">
+  <img class="tex" alt="|psi\rangle-in-yyx" src="html-data/psi-yyx.png">,
+</p>
+<p>
+whereas in the <i>B</i>-basis we have only those qubits with <i>even</i> number of 1-qubits,
+</p>
+<p style="text-align:center">
+  <img class="tex" alt="|psi\rangle-in-xxx" src="html-data/psi-xxx.png">.
+</p>
+<p>
+For each set up state, a measurement of two qubits suffices to determine the state of the third one uniquely.
+By construction, the measurement results are
+</p>
+<p>
+<table border="0" align="center">
+  <tr>
+    <td><i>A</i><sub>1, 2, 3</sub> <img class="tex" alt="|\psi\rangle" src="html-data/psi-state.png"> </td>
+    <td> = </td>
+    <td style="text-align:right"> -1,
+  </tr>
+  <tr>
+    <td style="text-align:right"><i>B</i> <img class="tex" alt="|\psi\rangle" src="html-data/psi-state.png"> </td>
+    <td> = </td>
+    <td style="text-align:right"> +1.</td>
+  </tr>
+</table>
+</p>
+<p>
+But this last measurement result for <i>B</i> leads to a contradiction to Einstein's local realism:
+If the GHZ state
+<img class="tex" alt="|psi\rangle" src="html-data/psi-state.png">
+was completely determined by some hidden variables and thus the same in each measurement trial,
+then we would have <i>B</i> <img class="tex" alt="|\psi\rangle" src="html-data/psi-state.png"> = -1,
+since 
+<i>Y</i><sub>1</sub><i>Y</i><sub>1</sub> = 
+<i>Y</i><sub>2</sub><i>Y</i><sub>2</sub> = 
+<i>Y</i><sub>3</sub><i>Y</i><sub>3</sub> = +1
+and therefore 
+<i>B</i> = <i>X</i><sub>1</sub><i>X</i><sub>1</sub><i>X</i><sub>3</sub>
+can be expressed as the product 
+<i>A</i><sub>1</sub><i>A</i><sub>2</sub><i>A</i><sub>3</sub>,
+<p>
+<table border="0" align="center">
+  <tr>
+    <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+    <td>
+      <i>A</i><sub>1</sub>
+    </td>
+    <td> = </td>
+    <td>
+      <i>X</i><sub>1</sub><i>Y</i><sub>2</sub><i>Y</i><sub>3</sub>
+    </td>
+    <td> = </td>
+    <td style="text-align:right"> -1 </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <i>A</i><sub>2</sub>
+    </td>
+    <td> = </td>
+    <td>
+      <i>Y</i><sub>1</sub><i>X</i><sub>2</sub><i>Y</i><sub>3</sub>
+    </td>
+    <td> = </td>
+    <td style="text-align:right"> -1 </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <i>A</i><sub>3</sub>
+    </td>
+    <td> = </td>
+    <td>
+      <i>Y</i><sub>1</sub><i>Y</i><sub>2</sub><i>X</i><sub>3</sub>
+    </td>
+    <td> = </td>
+    <td style="text-align:right"> -1 </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="5"><hr/></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td style="text-align:right">
+      <i>B</i>
+    </td>
+    <td> = </td>
+    <td>
+      <i>X</i><sub>1</sub><i>X</i><sub>2</sub><i>X</i><sub>3</sub>
+    </td>
+    <td> = </td>
+    <td style="text-align:right"> -1 </td>
+    <td> &nbsp; (if local realism holds)</td>
+  </tr>
+</table>
+</p>
+<p>
+However, this is a contradiction to the result 
+<i>B</i> <img class="tex" alt="|\psi\rangle" src="html-data/psi-state.png"> = +1 which quantum mechanics (without hidden variables) predicts. Realized GHZ experiments confirmed 
+<i>B</i> <img class="tex" alt="|\psi\rangle" src="html-data/psi-state.png"> = +1 and therefore falsified local realism.
+</p>
+</li>
+
+<li>
+<p>
+<a name="W-state"/>
+<a href="./entanglement/W-state.qc"><b>W-state.qc</b></a> - 
+Another interesting entangled state of three qubits, besides the GHZ state, is the <i>W state</i>
+consisting of a superposition of three states, 
+</p>
+<p style="text-align:center">
+  <img class="tex" alt="|W\rangle" src="html-data/W-state.png">.
+</p>
+<p>
+It cannot be constructed neither from the state
+<img class="tex" alt="|0\rangle" src="html-data/qubit-0.png">
+nor from the GHZ state by two-product operations 
+[<a href="http://arxiv.org/abs/quant-ph/0005115">W. Dür, G. Vidal, and J.I. Cirac, <i>Phys. Rev.</i> A <b>62</b>, 062314 (2000)</a>]. A way to create it is by means of function evaluation such that it is situated in the <i>y</i>-register.
+</p>
+</li>
+</ul>
+</body>
