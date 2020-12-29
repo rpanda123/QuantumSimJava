@@ -8,7 +8,7 @@ Supplementary to many other quantum computer simulators, QuantumSimJava offers t
 
 The main reason for this program to be open source is science. On the one hand, the publication of source and binary enables to let check the correctness of the implemented quantum gates: perhaps a broad community of users and programmers will test logic and source of the program and make it so evolve to a higher quality. On the other hand, innovative ideas for, or even completely new, quantum gates or algorithms could be supplemented by others in the future.
 
-The program requires the free plug-in Java 5 or higher. You can download the executable jar-file in order to run it. Please feel free to mail suggestions or critique, or indicate errors which you find in the program! 
+The program requires the free plug-in Java 5 or higher. You can download the executable jar-file in order to run it. Please feel free to mail suggestions or critique, or indicate errors which you find in the program! Examples of various circuits found in QuantumCircuit Examples folder!
 
 
 ![Visualization of a qubit register during a quantum algorithm](https://github.com/rpanda123/QuantumSimJava/blob/main/ImageExampleQuantumSim.jfif)
