@@ -11,5 +11,6 @@ The main reason for this program to be open source is science. On the one hand, 
 The program requires the free plug-in Java 5 or higher. You can download the executable jar-file in order to run it. Please feel free to mail suggestions or critique, or indicate errors which you find in the program! 
 
 
+![Visualization of a qubit register during a quantum algorithm](https://github.com/rpanda123/QuantumSimJava/blob/main/ImageExampleQuantumSim.jfif)
 
-Visualization of a qubit register during a quantum algorithm
+
