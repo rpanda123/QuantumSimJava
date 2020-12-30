@@ -1,7 +1,7 @@
 /*
  * FunctionParser.java - Parser and evaluation class for a string representing a function
  *
- * Copyright (C) 2004-2008 Andreas de Vries
+
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
