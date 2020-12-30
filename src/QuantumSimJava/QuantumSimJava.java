@@ -1,7 +1,6 @@
 /*
- * jQuantum.java - Main class of the jQuantum computer simulator
+ * Main class of the jQuantum computer simulator
  *
- * Copyright (C) 2004-2008 Andreas de Vries
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
